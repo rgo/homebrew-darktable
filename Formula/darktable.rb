@@ -42,7 +42,8 @@ class Darktable < Formula
 
   def install
     mkdir "build" do
-      system "cmake", "..", *std_cmake_args
+      default_cmake_args = "-DCMAKE_OSX_DEPLOYMENT_TARGET=10.7 -DCMAKE_CXX_FLAGS=-stdlib=libc++ -DBINARY_PACKAGE_BUILD=ON -DRAWSPEED_ENABLE_LTO=ON -DBUILD_CURVE_TOOLS=ON -DBUILD_NOISE_TOOLS=ON"
+      system "cmake", "..", default_cmake_args, *std_cmake_args
       system "make"
       system "make", "install"
     end
