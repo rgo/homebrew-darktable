@@ -1,3 +1,5 @@
+# WIP - NOT WORKING YET (wait a little bit, it will be soon) :)
+
 # homebrew-darktable
 
 This is a 3rd party tap for [Darktable](http://darktable.org/). It provides a formula for darktable which includes Lua support.
