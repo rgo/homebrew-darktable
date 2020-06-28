@@ -54,7 +54,7 @@ class Darktable < Formula
 
     %w[jpg tif png exr webp j2k pfm ppm].each do |extension|
       expected_file = "image.#{extension}"
-      system bin/'darktable-cli', 'homebrew.raw', '-o', expected_file
+      system bin / 'darktable-cli', 'homebrew.raw', '-o', expected_file
       assert File.size?(expected_file)
     end
 
@@ -64,7 +64,7 @@ class Darktable < Formula
       dt.print("#{expected_string}")
     EOLUA
 
-    stdout = shell_output(bin/"darktable-cli homebrew.raw -o image_lua_test.jpg --core --luacmd '#{lua_code}'")
+    stdout = shell_output(bin / "darktable-cli homebrew.raw -o image_lua_test.jpg --core --luacmd '#{lua_code}'")
     assert_match expected_string, stdout
   end
 end
