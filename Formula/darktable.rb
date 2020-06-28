@@ -65,4 +65,3 @@ class Darktable < Formula
     assert_match expected_string, stdout
   end
 end
-
