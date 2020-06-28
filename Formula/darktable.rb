@@ -32,8 +32,7 @@ class Darktable < Formula
 
   needs :openmp
 
-  fails_with "gcc" => 6
-  fails_with "gcc" => 7
+  fails_with :gcc
 
   resource "raw_sample" do
     url "https://raw.pixls.us/getfile.php/1033/nice/homebrew.raw"
@@ -44,7 +43,7 @@ class Darktable < Formula
     mkdir "build" do
       default_cmake_args = "-DCMAKE_OSX_DEPLOYMENT_TARGET=10.7 -DCMAKE_CXX_FLAGS=-stdlib=libc++ -DBINARY_PACKAGE_BUILD=ON -DRAWSPEED_ENABLE_LTO=ON -DBUILD_CURVE_TOOLS=ON -DBUILD_NOISE_TOOLS=ON"
       system "cmake", "..", default_cmake_args, *std_cmake_args
-      system "make"
+      system "make", "CC=#{ENV.clang}"
       system "make", "install"
     end
   end
