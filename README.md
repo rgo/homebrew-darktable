@@ -17,6 +17,16 @@ Contents:
 
 Or `brew tap rgo/homebrew-darktable` and then `brew install darktable`.
 
+
+### I'm brave and I want to try new devevelopments/features!
+
+First of all, unlink your current darktable version installed: `brew unlink darktable`
+
+Now, you're ready to install latest master version `brew install darktable --HEAD`
+
+*WARNING:* To avoid database incompatibilities when you're testing a HEAD version execute darktable database in memory (read below).
+
+
 ## I want to run darktable
 
 After installing darktable you can open it by executing `darktable` from your terminal.
