@@ -8,9 +8,7 @@ class Darktable < Formula
   depends_on "cmake" => :build
   depends_on "intltool" => :build
   depends_on "jpeg"
-  #depends_on "desktop-file-utils"
   depends_on "exiv2"
-  #depends_on "flickcurl"
   depends_on "gettext"
   depends_on "glib"
   depends_on "gphoto2"
