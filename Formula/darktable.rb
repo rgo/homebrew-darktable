@@ -1,4 +1,6 @@
 # frozen_string_literal: true
+
+# Formula to install darktable
 class Darktable < Formula
   desc 'Open source photography workflow application and raw developer'
   homepage 'https://www.darktable.org'
