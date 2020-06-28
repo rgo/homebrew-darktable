@@ -17,6 +17,21 @@ Contents:
 
 Or `brew tap rgo/homebrew-darktable` and then `brew install darktable`.
 
+## I want to run darktable
+
+After installing darktable you can open it by executing `darktable` from your terminal.
+
+It's up to you to create a direct access or something similar.
+
+
+### I already have it installed but I want to to test it
+
+To avoid broken anyhting of your current installation. You can execute this darktable with the database in memory:
+
+```
+darktable --library :memory:
+```
+
 
 ## Updating
 
