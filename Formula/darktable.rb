@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class Darktable < Formula
   desc 'Open source photography workflow application and raw developer'
   homepage 'https://www.darktable.org'
