@@ -1,4 +1,4 @@
-# WIP - NOT WORKING YET (wait a little bit, it will be soon) :)
+*DISCLAIMER:* This darktable version is most probably NOT ready for production. With the time, when we(among all) polish the build, it could be.
 
 # homebrew-darktable
 
