@@ -34,8 +34,6 @@ class Darktable < Formula
   depends_on "pugixml"
   depends_on "imagemagick" => :optional
 
-  needs :openmp
-
   fails_with :gcc
 
   resource "raw_sample" do
