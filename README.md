@@ -45,11 +45,17 @@ darktable --library :memory: --cachedir /tmp/homebrew-darktable-head-cache/ --co
 
 ## Updating
 
-To upgrade the formula to the most recent stable release:
+### Darktable
 
-```
-brew update && brew upgrade homebrew-darktable/darktable/darktable
-```
+To upgrade darktable you should execute `brew upgrade darktable`
+
+It takes into account if you are using master or stable version and only updates that version.
+
+
+### Formula
+
+To upgrade the formula to the most recent stable release, as usual: `brew update`
+
 
 ## Issues
 
