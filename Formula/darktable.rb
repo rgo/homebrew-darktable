@@ -32,7 +32,7 @@ class Darktable < Formula
   depends_on 'pugixml'
   depends_on 'perl'
   depends_on 'graphicsmagick'
-  depends_on 'imagemagick'
+  depends_on 'imagemagick' => :optional
 
   needs :openmp
 
