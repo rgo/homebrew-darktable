@@ -24,7 +24,7 @@ First of all, unlink your current darktable version installed: `brew unlink dark
 
 Now, you're ready to install latest master version `brew install darktable --HEAD`
 
-*WARNING:* To avoid database incompatibilities when you're testing a HEAD version execute darktable database in memory (read below).
+*WARNING:* To avoid database incompatibilities when you're testing a HEAD version [execute darktable database in memory](#i-already-have-it-installed-but-i-want-to-to-test-it) (read below).
 
 
 ## I want to run darktable
