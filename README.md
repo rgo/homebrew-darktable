@@ -36,10 +36,10 @@ It's up to you to create a direct access or something similar.
 
 ### I already have it installed but I want to to test it
 
-To avoid broken anyhting of your current installation. You can execute this darktable with the database in memory:
+To avoid broken anyhting of your current installation. You can execute this darktable with the database in memory, custom cache directory and a separate configuration path:
 
 ```
-darktable --library :memory:
+darktable --library :memory: --cachedir /tmp/homebrew-darktable-head-cache/ --configdir ~/.config/homebrew-darktable-head
 ```
 
 
