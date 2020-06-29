@@ -30,6 +30,7 @@ class Darktable < Formula
   depends_on 'openjpeg'
   depends_on 'osm-gps-map'
   depends_on 'pugixml'
+  depends_on 'perl'
   depends_on 'graphicsmagick' => :optional
 
   needs :openmp
