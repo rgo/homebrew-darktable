@@ -1,4 +1,4 @@
-*DISCLAIMER:* This darktable version is most probably NOT ready for production. With the time, when we(among all) polish the build, it could be.
+**DISCLAIMER:** This darktable version is most probably NOT ready for production. With the time, when we(among all) polish the build, it could be.
 
 # homebrew-darktable
 
