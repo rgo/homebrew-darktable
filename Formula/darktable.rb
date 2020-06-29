@@ -13,6 +13,7 @@ class Darktable < Formula
   depends_on "exiv2"
   depends_on "gettext"
   depends_on "glib"
+  depends_on "gmic"
   depends_on "gphoto2"
   depends_on "graphicsmagick"
   depends_on "gtk+3"
