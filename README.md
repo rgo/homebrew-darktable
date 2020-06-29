@@ -34,9 +34,9 @@ After installing darktable you can open it by executing `darktable` from your te
 It's up to you to create a direct access or something similar.
 
 
-### I already have it installed but I want to to test it
+### I already have darktable installed, I ONLY want to to test it
 
-To avoid broken anyhting of your current installation. You can execute this darktable with the database in memory, custom cache directory and a separate configuration path:
+To avoid break anyhting of your current installation, you can execute this darktable with the database in memory, custom cache directory and a separate configuration path:
 
 ```
 darktable --library :memory: --cachedir /tmp/homebrew-darktable-head-cache/ --configdir ~/.config/homebrew-darktable-head
