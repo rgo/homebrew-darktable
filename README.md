@@ -45,6 +45,10 @@ Save your changes and `brew install darktable --HEAD`
 
 If you already have darktable head installed then you have to do a `brew reinstall darktable`
 
+##### I was really brave but I want to restore to the original formula
+
+As you wish, `brew update-reset` will restore **all** your formulas to pristine status.
+
 
 *WARNING:* To avoid database incompatibilities when you're testing a HEAD version [execute darktable database in memory](#i-already-have-it-installed-but-i-want-to-to-test-it) (read below).
 
