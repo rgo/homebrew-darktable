@@ -1,5 +1,8 @@
 **DISCLAIMER:** This darktable version is most probably NOT ready for production. With the time, when we(among all) polish the build, it could be.
 
+To avoid database incompatibilities when you're testing master or HEAD versions [execute darktable database in memory](#i-already-have-it-installed-but-i-want-to-to-test-it) (read below).
+
+
 # homebrew-darktable
 
 This is a 3rd party tap for [Darktable](http://darktable.org/). It provides a formula for darktable which includes Lua support.
@@ -18,7 +21,6 @@ Contents:
 Or `brew tap rgo/homebrew-darktable` and then `brew install darktable`.
 
 
-*WARNING:* To avoid database incompatibilities when you're testing master or HEAD versions [execute darktable database in memory](#i-already-have-it-installed-but-i-want-to-to-test-it) (read below).
 
 ### I want to try new devevelopments/features from master branch
 
