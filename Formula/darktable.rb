@@ -6,6 +6,9 @@ class Darktable < Formula
   homepage "https://www.darktable.org"
   url "https://github.com/darktable-org/darktable/releases/download/release-3.0.2/darktable-3.0.2.tar.xz"
   sha256 "6abaf661fe9414e92bdb33b58b98ef024ccf6132b7876abaf0751ec2109f36fb"
+
+  # Example with all the parameters available for head:
+  # head "https://example.com/.git", :branch => "branch_name", :revision => "abc123"
   head "https://github.com/darktable-org/darktable.git"
 
   depends_on "cmake" => :build

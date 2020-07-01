@@ -18,11 +18,33 @@ Contents:
 Or `brew tap rgo/homebrew-darktable` and then `brew install darktable`.
 
 
-### I'm brave and I want to try new devevelopments/features!
+### I want to try new devevelopments/features from master branch
 
 First of all, unlink your current darktable version installed: `brew unlink darktable`
 
 Now, you're ready to install latest master version `brew install darktable --HEAD`
+
+
+#### I'm really brave and I want to try features from other developers!
+
+You can change head to point to a different repository simply editing the formula.
+All you need is to execute `brew edit darktable`
+
+It will open the formula, and just before the `depends_on` section you will find `head`.
+Then, you only have to replace it with the repository and branch you want to try.
+
+Example:
+
+```
+  # head "https://github.com/darktable-org/darktable.git" # ORIGINAL LINE COMMENTED
+  head "https://github.com/foobar/darktable.git", :branch => "cool_feature_to_test"
+```
+_NOTE:_ I prefer comment original line than delete it.
+
+Save your changes and `brew install darktable --HEAD`
+
+If you already have darktable head installed then you have to do a `brew reinstall darktable`
+
 
 *WARNING:* To avoid database incompatibilities when you're testing a HEAD version [execute darktable database in memory](#i-already-have-it-installed-but-i-want-to-to-test-it) (read below).
 
