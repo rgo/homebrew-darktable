@@ -46,10 +46,12 @@ class Darktable < Formula
   end
 
   def install
+    # From LLVM formula:
+    ENV.libcxx if ENV.compiler == :clang
+
     mkdir "build" do
       default_cmake_args = %w[
         -DCMAKE_OSX_DEPLOYMENT_TARGET=10.7
-        -DCMAKE_CXX_FLAGS=-stdlib=libc++
         -DBINARY_PACKAGE_BUILD=ON
         -DRAWSPEED_ENABLE_LTO=ON
         -DBUILD_CURVE_TOOLS=ON
