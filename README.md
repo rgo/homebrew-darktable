@@ -18,6 +18,8 @@ Contents:
 Or `brew tap rgo/homebrew-darktable` and then `brew install darktable`.
 
 
+*WARNING:* To avoid database incompatibilities when you're testing master or HEAD versions [execute darktable database in memory](#i-already-have-it-installed-but-i-want-to-to-test-it) (read below).
+
 ### I want to try new devevelopments/features from master branch
 
 First of all, unlink your current darktable version installed: `brew unlink darktable`
@@ -50,7 +52,6 @@ If you already have darktable head installed then you have to do a `brew reinsta
 As you wish, `brew update-reset` will restore **all** your formulas to pristine status.
 
 
-*WARNING:* To avoid database incompatibilities when you're testing a HEAD version [execute darktable database in memory](#i-already-have-it-installed-but-i-want-to-to-test-it) (read below).
 
 
 ## I want to run darktable
