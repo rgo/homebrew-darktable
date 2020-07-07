@@ -24,6 +24,7 @@ class Darktable < Formula
   depends_on "jpeg"
   depends_on "json-glib"
   depends_on "lensfun"
+  depends_on "libomp"
   depends_on "librsvg"
   depends_on "libsecret"
   depends_on "libsoup"
