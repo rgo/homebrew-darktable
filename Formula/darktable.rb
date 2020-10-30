@@ -4,8 +4,8 @@
 class Darktable < Formula
   desc "Open source photography workflow application and raw developer"
   homepage "https://www.darktable.org"
-  url "https://github.com/darktable-org/darktable/releases/download/release-3.0.2/darktable-3.0.2.tar.xz"
-  sha256 "6abaf661fe9414e92bdb33b58b98ef024ccf6132b7876abaf0751ec2109f36fb"
+  url "https://github.com/darktable-org/darktable/releases/download/release-3.2.1/darktable-3.2.1.tar.xz"
+  sha256 "6e3683ea88dc0a0271be7eca4fd594b9e46b1b7194847825a8d0a0c12bdeb90c"
 
   # Example with all the parameters available for head:
   # head "https://example.com/.git", :branch => "branch_name", :revision => "abc123"
