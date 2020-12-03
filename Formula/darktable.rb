@@ -11,8 +11,10 @@ class Darktable < Formula
   # head "https://example.com/.git", :branch => "branch_name", :revision => "abc123"
   head "https://github.com/darktable-org/darktable.git"
 
-  depends_on "adwaita-icon-theme"
   depends_on "cmake" => :build
+  depends_on "intltool" => :build
+
+  depends_on "adwaita-icon-theme"
   depends_on "exiv2"
   depends_on "gettext"
   depends_on "glib"
@@ -21,7 +23,6 @@ class Darktable < Formula
   depends_on "graphicsmagick"
   depends_on "gtk+3"
   depends_on "gtk-mac-integration"
-  depends_on "intltool" => :build
   depends_on "jpeg"
   depends_on "json-glib"
   depends_on "lensfun"
