@@ -49,7 +49,7 @@ Save your changes and `brew install darktable --HEAD`
 
 If you already have darktable head installed then you have to do a `brew reinstall darktable`
 
-##### I was really brave but I want to restore to the original formula
+##### I was really brave but I want to restore the original formula
 
 As you wish, `brew update-reset` will restore **all** your formulas to pristine status.
 
